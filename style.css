@@ -1,8 +1,42 @@
-p {
-    color:blue;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #53628D;
+}
+
+.logo{
+    color: white;
+    font-size:22px;
+    letter-spacing: 5px
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size:17px
+}
+
+nav li{
+    list-style: none;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+  }
+
+h1 {
     text-align: center;
 }
 
-.picture {
+h2 {
     text-align: center;
 }
