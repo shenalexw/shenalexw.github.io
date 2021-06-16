@@ -57,11 +57,12 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-    body {
+    html {
         overflow-x: hidden;
     }
     
     .nav-links {
+        
         position: absolute;
         right: 0px;
         height: 92vh;
@@ -82,7 +83,7 @@ nav {
 }
 
 .nav-active {
-        transform: translateX(0%);
+    transform: translateX(0%);
 }
 
 
