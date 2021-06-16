@@ -59,6 +59,7 @@ nav {
 @media screen and (max-width: 768px) {
     html, body {
         overflow-x: hidden;
+        overflow-y: scroll
     }
     
     .nav-links {
