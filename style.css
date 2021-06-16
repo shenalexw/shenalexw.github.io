@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-html, body{
-    width: 100%;
-    position: relative;
-}
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -66,7 +61,6 @@ nav {
         overflow-x: hidden;
     }
     .nav-links {
-        
         position: absolute;
         right: 0px;
         height: 92vh;
