@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body{
+    width: 100%;
+    position: relative;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -57,10 +62,9 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-    html, body {
-        overflow-x: hidden !important;
+    body {
+        overflow-x: hidden;
     }
-    
     .nav-links {
         
         position: absolute;
