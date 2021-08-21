@@ -126,14 +126,40 @@ img{
 .portfolio {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr));
-    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
+    grid-gap: 10px;
+}
+
+.portfolio_item{
+    background-color: black;
+    overflow: hidden;
+}
+
+.portfolio_title {
+    background-color: white;
+}
+
+.portfolio_image{
+    object-fit: cover;
+    width: 5000px;
+    height: 300px;
+    transition: 
+        transform 750ms cubic-bezier(0, 0, 0.5, 1),
+        opacity 250ms linear;
+}
+
+.portfolio_image:hover{
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 img {
     display: block;
     max-width: 100%;
+    max-height: 100%;
+    
 }
+
 
 
 
