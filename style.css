@@ -13,6 +13,15 @@ body {
     margin: 25px 0px 0px 0px;
     line-height: 1.5;
     text-align: center;
+    opacity: 0;
+    animation: fadein 0.7s ease-in-out 0.5s forwards;
+}
+
+/*Resume CSS*/
+.doc {
+    padding-top: 20px;
+    width: 75%;
+    height: 700px;
 }
 
 /*Portfolio CSS*/
@@ -30,6 +39,7 @@ body {
 }
 
 .portfolio_title {
+    text-align: center;
     background-color: white;
 }
 
@@ -88,18 +98,18 @@ header h1{
     font-size: 64px;
 }
 
-header button{
+.button_align a{
     font-size: 20px;
+    font-weight: bold;
     color: white;
-    padding: 15px 25px;
-    background: linear-gradient(to left, #53628D, lightblue);
+    padding: 15px 20px;
+    margin-left: 4px;
+    background: linear-gradient(to left, #53628D, #6fbbd3);
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
-}
-
-.button-align {
-    display:inline-block;
+    display: inline-block;
+    text-decoration: none;
 }
 
 @keyframes fadein {
@@ -121,10 +131,12 @@ nav {
     font-family: 'Courier New', monospace;
 }
 
-.logo {
+.logo a {
     color: rgb(226, 226, 226);
-    letter-spacing: 5px;
-    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .nav-links {
@@ -158,12 +170,18 @@ nav {
 }
 
 @media screen and (max-width: 1024px) {
+    /*Naviagation Bar CSS*/
     .nav-links {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 768px) {
+    /*Resume CSS*/
+    .doc {
+        height: 500px;
+    }
+    /*Naviagation Bar CSS*/
     .test {
         overflow-x: hidden;
         position: relative;
@@ -186,6 +204,35 @@ nav {
         display: block;
         cursor: pointer;
     }
+
+    /*Landing Page CSS*/
+    header img{
+        position: relative;
+        height: 50%;
+        top: 0%;
+        right: 0%;
+    }
+
+    header {
+        width: 100%;
+        margin-left: 25%
+    }
+
+    header p{
+        margin: 30px 0px;
+        font-size: 20px;
+    }
+    
+    header h1{
+        font-size: 40px;
+    }
+
+    .button_align a{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
 }
 
 .nav-active {
