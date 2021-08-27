@@ -45,7 +45,7 @@ body {
 
 .portfolio_image{
     object-fit: cover;
-    width: 5000px;
+    width: 720px;
     height: 300px;
     transition: 
         transform 750ms cubic-bezier(0, 0, 0.5, 1),
@@ -83,8 +83,9 @@ header {
 
 header p{
     margin: 50px 0px;
-    font-size: 30px;
-    width: 60%;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
 }
 
 header h1{
@@ -121,6 +122,16 @@ header img{
     text-decoration: none;
 }
 
+.typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret 1s step-end infinite;
+    animation-delay: 0.61s;
+  }
+
 @keyframes fadein {
     from {
         opacity: 0;
@@ -128,6 +139,18 @@ header img{
     to{
         opacity: 1;
     }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
 }
 
 /*Naviagation Bar CSS*/
@@ -250,9 +273,17 @@ nav {
     }
 
     header p{
-        margin: 30px 0px;
-        font-size: 15px;
+        margin: 10px 0px;
+        font-size: 18px;
         padding-bottom: 400px;
+        width: 50%;
+    }
+
+    .typewriter p {
+        overflow: auto;
+        border-right: none; 
+        white-space: normal; 
+        animation: none;
     }
     
     header h1{
