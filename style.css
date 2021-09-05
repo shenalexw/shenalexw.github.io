@@ -120,6 +120,11 @@ header img{
     cursor: pointer;
     display: block;
     text-decoration: none;
+    transition: transform .5s; /* Animation */
+}
+
+.button_align a:hover{
+    transform: scale(1.2);
 }
 
 .typewriter p {
@@ -127,9 +132,9 @@ header img{
     border-right: .15em solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     animation: 
-      typing 2.5s steps(40, end),
+      typing 3.5s steps(40, end),
       blink-caret 1s step-end infinite;
-    animation-delay: 0.61s;
+    animation-delay: 0.5s;
   }
 
 @keyframes fadein {
@@ -220,6 +225,8 @@ nav {
         font-size: 20px;
     }
     .test {
+        height: 100%;
+        width: 100%;
         overflow-x: hidden;
         position: relative;
     }
@@ -246,18 +253,29 @@ nav {
     }
 
     /*Landing Page CSS*/
+    header {
+        height: auto;
+        align-items: center;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     header img{
         right: auto;
-        height: 300px;
-        top: 225px;
-        left: 25%;
+        height: 400px;
+        top: 200px;
+        margin-left: auto;
     }
     
     .button_align{
         right: auto;
-        padding-left: 25px;
+        padding-left: 80px;
         top: 100px;
-        left: 25%;
+        margin-left: auto;
     }
 
     .button_align a{
@@ -265,21 +283,25 @@ nav {
         padding: 10px 15px;
     }
 
-    header {
-        padding-top: 20px;
-        display: block;
-        width: 75%;
-        margin-left: 25%;
-    }
-
     header p{
         margin: 10px 0px;
         font-size: 18px;
         padding-bottom: 400px;
-        width: 50%;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .typewriter{
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        display: block;
     }
 
     .typewriter p {
+        text-align: center;
         overflow: auto;
         border-right: none; 
         white-space: normal; 
