@@ -1,3 +1,36 @@
-# shenalexw.github.io
+# shenalexw.github.io 👔
 
-This is my portfolio! Please visit the link https://shenalexw.github.io/
+## Table of Contents
+- [Abstract](#Abstract)
+- [How To Use](#how-to-use)
+- [References](#references)
+- [Author(s)](#author-info)
+
+---
+
+## Abstract
+
+The website is split into three pages.
+- Landing Page
+- Portfolio
+- Resume
+
+---
+
+## How To Use
+
+Live Preview: [Portfolio](https://shenalexw.github.io)
+
+
+## References
+
+- [Responsive Navigation Bar Tutorial | HTML CSS JAVASCRIPT](https://www.youtube.com/watch?v=gXkqy0b4M5g&t=182s)
+- [Build and deploy a portfolio website [Full Tutorial Course]](https://www.youtube.com/watch?v=_xkSvufmjEs&t=1396s)
+- [Typewriter Effect](https://css-tricks.com/snippets/css/typewriter-effect/)
+
+---
+
+## Author Info
+#### Alexander Shen - Developer
+- [LinkedIn](https://www.linkedin.com/in/shenalexw/)
+- [Portfolio Website](https://shenalexw.github.io/)
