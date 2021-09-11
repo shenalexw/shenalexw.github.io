@@ -6,8 +6,6 @@
 - [References](#references)
 - [Author(s)](#author-info)
 
----
-
 ## Abstract
 
 The website is split into three pages.
@@ -15,12 +13,9 @@ The website is split into three pages.
 - Portfolio
 - Resume
 
----
-
 ## How To Use
 
 Live Preview: [Portfolio](https://shenalexw.github.io)
-
 
 ## References
 
@@ -28,8 +23,6 @@ Live Preview: [Portfolio](https://shenalexw.github.io)
 - [Build and deploy a portfolio website [Full Tutorial Course]](https://www.youtube.com/watch?v=_xkSvufmjEs&t=1396s)
 - [Typewriter Effect](https://css-tricks.com/snippets/css/typewriter-effect/)
 - [Unsplash](https://unsplash.com/)
-
----
 
 ## Author Info
 #### Alexander Shen - Developer
