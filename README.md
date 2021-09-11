@@ -27,6 +27,7 @@ Live Preview: [Portfolio](https://shenalexw.github.io)
 - [Responsive Navigation Bar Tutorial | HTML CSS JAVASCRIPT](https://www.youtube.com/watch?v=gXkqy0b4M5g&t=182s)
 - [Build and deploy a portfolio website [Full Tutorial Course]](https://www.youtube.com/watch?v=_xkSvufmjEs&t=1396s)
 - [Typewriter Effect](https://css-tricks.com/snippets/css/typewriter-effect/)
+- [Unsplash](https://unsplash.com/)
 
 ---
 
