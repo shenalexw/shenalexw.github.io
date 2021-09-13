@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Abstract](#Abstract)
+- [In-Progress](#In-Progress)
 - [How To Use](#how-to-use)
 - [References](#references)
 - [Author(s)](#author-info)
@@ -12,6 +13,10 @@ The website is split into three pages.
 - Landing Page
 - Portfolio
 - Resume
+
+## In Progress
+
+Working on changing the resume section to a responsive display of languages used and work experience.
 
 ## How To Use
 
