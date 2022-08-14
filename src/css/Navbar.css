@@ -1,0 +1,87 @@
+nav {
+    text-decoration: none;
+    height: 10vh;
+    width: 100vw;
+    background-color: #00224B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: lightgrey;
+}
+
+.nav-links-box {
+    top: 0vh;
+    right: 0px;
+    height: 100vh;
+    width: 50vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003165;
+    animation: fadein 0.5s;
+}
+
+.nav-links {
+    width: 100%;
+}
+
+.nav-links-hidden {
+    display: none;
+}
+
+.logo {
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger {
+    cursor: pointer;
+    display: block;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,35 @@
+.home {
+    height: 90vh;
+    width: 100vw;
+    background-color: #00224B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    padding: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column
+}
+
+.home-welcome {
+    font-size: 1.2rem;
+}
+
+.home-full-name {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.home-tagline {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.home-description {
+    margin-top: 10px;
+}
