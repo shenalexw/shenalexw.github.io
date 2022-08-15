@@ -10,7 +10,14 @@ export default class Projects extends Component<Props, State> {
 
     render() {
         return (
-            <div className='projects' id='projects'>Projects</div>
+            <>
+                <div className='filler-block' id='projects' />
+                <div className='projects' >
+                    <div className="header">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+            </>
         )
     }
 }

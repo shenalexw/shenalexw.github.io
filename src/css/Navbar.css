@@ -1,4 +1,6 @@
 nav {
+    position: sticky;
+    top: 0px;
     text-decoration: none;
     height: 10vh;
     width: 100vw;

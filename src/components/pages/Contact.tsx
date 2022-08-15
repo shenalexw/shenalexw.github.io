@@ -9,7 +9,14 @@ export default class Contact extends Component<Props, State> {
 
     render() {
         return (
-            <div className='contact' id='contact'>Contact</div>
+            <>
+                <div className='filler-block' id='contact' />
+                <div className='contact'>
+                    <div className="header">
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+            </>
         )
     }
 }

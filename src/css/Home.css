@@ -17,19 +17,36 @@
 }
 
 .home-welcome {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .home-full-name {
+    color: #CEBDF1;
     margin-top: 10px;
     font-size: 2rem;
-}
-
-.home-tagline {
-    margin-top: 10px;
-    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .home-description {
     margin-top: 10px;
+}
+
+.home-button-row {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 1000px) {
+    .home-welcome {
+        font-size: 1.5rem;
+    }
+
+    .home-full-name {
+        font-size: 5rem;
+    }
+
+    .home-description {
+        width: 75%;
+    }
 }

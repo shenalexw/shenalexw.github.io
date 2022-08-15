@@ -10,12 +10,15 @@ export default class About extends Component<Props, State> {
 
     render() {
         return (
-            <div className='about' id='about'>
-                <div className="about-header">
-                    <h2>About</h2>
-                </div>
+            <>
+                <div className='filler-block' id='about' />
+                <div className='about' >
+                    <div className="header">
+                        <h2>About</h2>
+                    </div>
 
-            </div>
+                </div></>
+
         )
     }
 }
