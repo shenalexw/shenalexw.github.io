@@ -14,7 +14,7 @@ export default class About extends Component<Props, State> {
                 <div className='filler-block' id='about' />
                 <div className='about' >
                     <div className="header">
-                        <h2>About</h2>
+                        about
                     </div>
 
                 </div></>

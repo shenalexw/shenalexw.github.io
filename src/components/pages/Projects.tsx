@@ -14,7 +14,7 @@ export default class Projects extends Component<Props, State> {
                 <div className='filler-block' id='projects' />
                 <div className='projects' >
                     <div className="header">
-                        <h2>Projects</h2>
+                        Projects
                     </div>
                 </div>
             </>

@@ -13,7 +13,7 @@ export default class Contact extends Component<Props, State> {
                 <div className='filler-block' id='contact' />
                 <div className='contact'>
                     <div className="header">
-                        <h2>Contact</h2>
+                        Contact
                     </div>
                 </div>
             </>

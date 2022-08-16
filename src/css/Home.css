@@ -1,3 +1,15 @@
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .home {
     height: 90vh;
     width: 100vw;
@@ -13,22 +25,26 @@
     margin-left: 5vw;
     margin-right: 5vw;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    animation: fadeInDown 1.5s;
 }
 
 .home-welcome {
-    font-size: 1.1rem;
+    font-size: 3rem;
 }
 
 .home-full-name {
     color: #CEBDF1;
     margin-top: 10px;
-    font-size: 2rem;
+    font-size: 6rem;
     font-weight: bolder;
 }
 
 .home-description {
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 10px;
+    font-size: 1.5rem;
+    width: 75%;
 }
 
 .home-button-row {
@@ -37,16 +53,17 @@
     flex-direction: row;
 }
 
-@media (min-width: 1000px) {
+@media only screen and (max-width: 768px) {
     .home-welcome {
         font-size: 1.5rem;
     }
 
     .home-full-name {
-        font-size: 5rem;
+        font-size: 2.5rem;
     }
 
     .home-description {
-        width: 75%;
+        font-size: 1.25rem;
+        width: 100%;
     }
 }

@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@font-face {
+  font-family: "lofi";
+  src: local("lofi"),
+    url("../fonts/lofi/lofi.ttf") format("truetype");
+  font-weight: bolder;
+}
 
 body {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'lofi', monospace;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h2 {
-  color: #CEBDF1
-}
-
 button {
+  font-family: 'lofi', monospace;
+  font-weight: bolder;
   background-color: #00224B;
   border-radius: 10px;
   width: fit-content;
@@ -37,6 +40,9 @@ button:hover {
   margin-right: 15px;
   margin-left: 15px;
   padding: 10px;
+  color: #CEBDF1;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 .filler-block {
