@@ -41,7 +41,7 @@
 }
 
 .home-description {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Sans-Serif;
     margin-top: 10px;
     font-size: 1.5rem;
     width: 75%;
@@ -51,6 +51,7 @@
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    gap: 15px;
 }
 
 @media only screen and (max-width: 768px) {

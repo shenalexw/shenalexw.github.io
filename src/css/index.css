@@ -25,7 +25,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -37,9 +37,8 @@ button:hover {
 }
 
 .header {
-  margin-right: 15px;
-  margin-left: 15px;
-  padding: 10px;
+  margin-left: 30px;
+  height: 5vh;
   color: #CEBDF1;
   font-size: 2rem;
   font-weight: bolder;
@@ -49,4 +48,11 @@ button:hover {
   background-color: #00224B;
   height: 10vh;
   width: 100vw;
+}
+
+.center-flex {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
