@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Pass Genny",
+        "description": "MERN stack app that allows users to generate a password and store up to 5 passwords",
+        "image": "https://drive.google.com/uc?export=view&id=1MPoXWZ5L-PjnWBhAMm9du6cyVoqaa5s9",
+        "skills": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+        ],
+        "github": "https://github.com/shenalexw/Pass_Genny",
+        "demo": "https://pass-genny.herokuapp.com/"
+    }
+]

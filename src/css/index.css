@@ -56,3 +56,12 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+
+.icons {
+  transition: all .2s ease-in-out;
+}
+
+.icons:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { HashLink } from 'react-router-hash-link'
 import '../../css/Navbar.css'
+import logo from '../../images/logo.png'
 
 type Props = {}
 
@@ -28,7 +29,7 @@ export default class Navbar extends Component<Props, State> {
             <nav>
                 <div className='logo'>
                     <HashLink smooth to="/#">
-                        home
+                        <img className='nav-logo' src={logo} />
                     </HashLink>
                 </div>
                 <div className={this.state.isNavToggled ? "nav-links-box" : "nav-links-hidden"}>
