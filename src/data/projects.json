@@ -1,9 +1,10 @@
 [
     {
         "title": "Pass Genny",
-        "description": "MERN stack app that allows users to generate a password and store up to 5 passwords",
+        "description": "M.E.R.N stack app that allows users to generate a password and store up to 5 passwords",
         "image": "https://drive.google.com/uc?export=view&id=1MPoXWZ5L-PjnWBhAMm9du6cyVoqaa5s9",
         "skills": [
+            "JavaScript",
             "React",
             "Node.js",
             "Express.js",
@@ -11,5 +12,40 @@
         ],
         "github": "https://github.com/shenalexw/Pass_Genny",
         "demo": "https://pass-genny.herokuapp.com/"
+    },
+    {
+        "title": "Peety Coffee Counter",
+        "description": "Slack bot that tracks a weekly coffee consumption leaderboard using slack user information and slash commands",
+        "image": "https://drive.google.com/uc?export=view&id=1fjB0If4jGF-vYR1g2UwgwiNrmdjFvfM7",
+        "skills": [
+            "Python",
+            "Flask",
+            "MongoDB"
+        ],
+        "github": "https://github.com/shenalexw/peety-coffee-counter",
+        "demo": ""
+    },
+    {
+        "title": "Stockify",
+        "description": "Email notifier that alerts a user when a product is in stock by web scraping HTML",
+        "image": "https://drive.google.com/uc?export=view&id=1zD30w_CT4bB016LXuZ-fKzOI3Ptbu3a-",
+        "skills": [
+            "Python",
+            "beautifulsoup4",
+            "smtplib"
+        ],
+        "github": "https://github.com/shenalexw/EmailStockNotifier",
+        "demo": ""
+    },
+    {
+        "title": "Foogle",
+        "description": "Recreation of Google homepage and search results using HTML/CSS",
+        "image": "https://drive.google.com/uc?export=view&id=1kCQnpcY4uE8c1L9LFdgVF8bxRGAtHsLf",
+        "skills": [
+            "HTML",
+            "CSS"
+        ],
+        "github": "https://github.com/shenalexw/Foogle",
+        "demo": "https://shenalexw.github.io/Foogle/"
     }
 ]

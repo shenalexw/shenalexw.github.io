@@ -17,8 +17,6 @@
     max-width: 1000px;
     width: 90vw;
     height: 40vh;
-    border: 2px solid #CEBDF1;
-    border-radius: 15px;
     display: flex;
     flex-direction: row;
 }
@@ -33,7 +31,7 @@
 }
 
 .project-bubble-image-half {
-    width: 60%;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,14 +39,14 @@
 
 .project-bubble-title {
     padding: 10px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .project-bubble-links {
     width: 20%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .project-bubble-description {
@@ -58,9 +56,9 @@
 }
 
 .project-bubble-image {
-    border-radius: 0px 13px 13px 0px;
-    height: 100%;
-    width: 100%;
+    border-radius: 15px;
+    height: 250px;
+    width: 500px;
 }
 
 .project-bubble-skills {
@@ -68,7 +66,7 @@
     font-family: sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .projects-bubble {
         flex-direction: column;
     }
@@ -79,7 +77,9 @@
 
     .project-bubble-text-half {
         height: 100%;
-        width: 100%
+        width: 95%;
+        border: 1px solid #CEBDF1;
+        border-radius: 15px
     }
 
     .project-bubble-image-half {
