@@ -19,7 +19,7 @@ export default class Projects extends Component<Props, State> {
                         Projects
                     </div>
                     <div className='projects-content'>
-                        {projectData.map((project) => <ProjectBubble title={project.title} description={project.description} image={project.image} skills={project.skills} github={project.github} demo={project.demo} />)}
+                        {projectData.map((project) => <ProjectBubble key={project.title} title={project.title} description={project.description} image={project.image} skills={project.skills} github={project.github} demo={project.demo} />)}
                     </div>
                 </div>
             </>

@@ -16,7 +16,6 @@
 .projects-bubble {
     max-width: 1000px;
     width: 90vw;
-    height: 40vh;
     display: flex;
     flex-direction: row;
 }

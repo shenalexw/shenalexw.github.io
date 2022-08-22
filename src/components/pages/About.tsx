@@ -16,6 +16,8 @@ export default class About extends Component<Props, State> {
                     <div className="header">
                         about
                     </div>
+                    <div className='about-content'>
+                    </div>
 
                 </div></>
 
