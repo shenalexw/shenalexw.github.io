@@ -34,8 +34,8 @@ export default class Navbar extends Component<Props, State> {
                 </div>
                 <div className={this.state.isNavToggled ? "nav-links-box" : "nav-links-hidden"}>
                     <div className='nav-links'>
-                        <HashLink smooth to="/#about">
-                            <div onClick={this.handleNavToggle}>about</div>
+                        <HashLink smooth to="/#work">
+                            <div onClick={this.handleNavToggle}>Work</div>
                         </HashLink>
 
                         <HashLink smooth to="/#projects">

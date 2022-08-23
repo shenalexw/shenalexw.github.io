@@ -28,7 +28,7 @@ export default class ProjectBubble extends Component<Props, State> {
                     </div>
                 </div>
                 <div className='project-bubble-image-half'>
-                    <img className='project-bubble-image' src={this.props.image}></img>
+                    <img alt='project' className='project-bubble-image' src={this.props.image}></img>
                 </div>
             </div>
         )

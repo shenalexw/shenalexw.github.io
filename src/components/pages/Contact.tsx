@@ -20,7 +20,7 @@ export default class Contact extends Component<Props, State> {
                         <div className='contact-content'>
                             <div className='contact-thanks'>{contactData["thanks"]}</div>
                             <div className='contact-message'>{contactData["message"]}</div>
-                            <button>Say Hi ☕</button>
+                            <button onClick={() => window.open('mailto:shenalexw@gmail.com')}>Say Hi ☕</button>
                         </div>
                     </div>
                 </div>
