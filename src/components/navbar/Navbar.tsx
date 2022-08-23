@@ -29,7 +29,7 @@ export default class Navbar extends Component<Props, State> {
             <nav>
                 <div className='logo'>
                     <HashLink smooth to="/#">
-                        <img className='nav-logo' src={logo} />
+                        <img alt='logo' className='nav-logo' src={logo} />
                     </HashLink>
                 </div>
                 <div className={this.state.isNavToggled ? "nav-links-box" : "nav-links-hidden"}>
