@@ -20,7 +20,7 @@ export default class Work extends Component<Props, State> {
                     </div>
                     <div className='work-content'>
                         <div className='work-row'>
-                        {workData.map((work) => <WorkTile logo={work.logo} position={work.position} bullets={work.bullets} />)}
+                        {workData.map((work) => <WorkTile key={work.logo} logo={work.logo} position={work.position} bullets={work.bullets} />)}
                         </div>
                     </div>
                 </div></>

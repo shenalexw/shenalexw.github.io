@@ -19,7 +19,7 @@ export default class WorkTile extends Component<Props, State> {
                 <div className='work-position'>{this.props.position}</div>
                 <div className='work-list'>
                     <ul>
-                    {this.props.bullets.map((bullet) => <li>{bullet}</li>)}
+                    {this.props.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
                     </ul> 
                 </div>
             </div>

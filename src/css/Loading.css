@@ -1,0 +1,111 @@
+.loading-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00224B;
+    overflow: hidden;
+}
+
+.loading-moving-block{
+    visibility: hidden;
+    height: 50px;
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    animation: showAnimation 0s ease-in 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.loading-trail-1{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    animation: float-trail ease-in-out 4s;
+    animation-delay: 0.2s;
+}
+
+.loading-trail-2{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    animation: float-trail ease-in-out 4s;
+    animation-delay: 0.1s;
+}
+
+.loading-image{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    animation: float ease-in-out 4s;
+}
+
+@keyframes showAnimation {
+    to {
+      visibility: visible;
+    }
+  }
+
+@keyframes float{
+    0% {
+        opacity: 0;
+        top: 0;
+    }
+
+    20% {
+        top: 100%;
+    }
+
+    40% {
+        top: 0;
+    }
+
+    60% {
+        top: 100%;
+    }
+
+    80% {
+        opacity: 1;
+        top: 0;
+    }
+
+    100% {
+        opacity: 0;
+        top: 100%;
+    }
+}
+
+@keyframes float-trail{
+    0% {
+        transform:rotate(0deg);
+        opacity: 0;
+        top: 20%;
+    }
+
+    20% {
+        top: 100%;
+    }
+
+    40% {
+        top: 20%;
+    }
+
+    60% {
+        top: 100%;
+    }
+
+    80% {
+        opacity: 1;
+        top: 20%;
+    }
+
+    100% {
+        transform:rotate(360deg);
+        opacity: 0;
+        top: 100%;
+    }
+}
