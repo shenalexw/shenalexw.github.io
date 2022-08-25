@@ -25,3 +25,13 @@
     font-size: 1.5rem;
     letter-spacing: 0.1em;
 }
+
+@media only screen and (max-width: 768px) {
+    .contact-thanks {
+        font-size: 2rem;
+    }
+
+    .contact-message {
+        font-size: 1.2rem;
+    }
+}
