@@ -1,7 +1,7 @@
 [
     {
         "title": "Pass Genny",
-        "description": "M.E.R.N stack app that allows users to generate a password and store up to 5 passwords",
+        "description": "M.E.R.N stack app that allows users to generate a password and store up to 5 passwords. (Hosted on render.com please give it a few minutes to become active)",
         "image": "https://drive.google.com/uc?export=view&id=1MPoXWZ5L-PjnWBhAMm9du6cyVoqaa5s9",
         "skills": [
             "JavaScript",
@@ -11,7 +11,7 @@
             "MongoDB"
         ],
         "github": "https://github.com/shenalexw/Pass_Genny",
-        "demo": "https://pass-genny.herokuapp.com/"
+        "demo": "https://passgennyproject.onrender.com/"
     },
     {
         "title": "Peety Coffee Counter",
