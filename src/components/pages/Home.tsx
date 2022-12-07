@@ -18,7 +18,7 @@ export default class Home extends Component<Props, State> {
                         <div className='home-description'>{homeData["description"]}</div>
                         <div className='home-button-row'>
                             <button onClick={() => window.open("https://github.com/shenalexw")}>github</button>
-                            <button onClick={() => window.open(resume)}>Resume</button>
+                            <button onClick={() => window.open(resume)}>Resumé</button>
                         </div>
                     </div>
                 </div>
