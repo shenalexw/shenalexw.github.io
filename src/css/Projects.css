@@ -55,9 +55,9 @@
 }
 
 .project-bubble-image {
-    border-radius: 15px;
     height: 250px;
     width: 500px;
+    object-fit: scale-down;
 }
 
 .project-bubble-skills {
