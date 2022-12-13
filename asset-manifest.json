@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.3dfcdaff.css",
-    "main.js": "/static/js/main.5aa7d34f.js",
+    "main.css": "/static/css/main.85dfcab2.css",
+    "main.js": "/static/js/main.b1336d64.js",
     "static/media/lofi.ttf": "/static/media/lofi.07d1035c81bed97bbd85.ttf",
-    "static/media/alexander_shen_resume.pdf": "/static/media/alexander_shen_resume.f7be7552ee026bd97dcf.pdf",
     "index.html": "/index.html",
-    "main.3dfcdaff.css.map": "/static/css/main.3dfcdaff.css.map",
-    "main.5aa7d34f.js.map": "/static/js/main.5aa7d34f.js.map"
+    "main.85dfcab2.css.map": "/static/css/main.85dfcab2.css.map",
+    "main.b1336d64.js.map": "/static/js/main.b1336d64.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dfcdaff.css",
-    "static/js/main.5aa7d34f.js"
+    "static/css/main.85dfcab2.css",
+    "static/js/main.b1336d64.js"
   ]
 }
