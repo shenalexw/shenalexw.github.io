@@ -16,7 +16,8 @@
         "bullets": [
             "Refactored 4000+ lines of code to assist faculty members track and assess courses based on survey data resulting in improved code legibility and allowing users to share specific landing pages using PHP / jQuery / MySql.",
             "Removed security risk by addressing vulnerable APIs with validation of client-inaccessible PHP session variables.",
-            "Enhanced user experience by responding to API calls with HTTP response codes and messages rendered as snackbars.."
+            "Enhanced user experience by responding to API calls with HTTP response codes and messages rendered as snackbars.",
+            "Increased user information digestion by creating an exportable bar and pie chart data visual using Chart.js."
         ]
     }
 ]

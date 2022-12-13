@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../../css/Home.css'
 import homeData from '../../data/home.json'
-import resume from '../../data/alexander_shen_resume.pdf'
 
 type Props = {}
 
@@ -17,8 +16,9 @@ export default class Home extends Component<Props, State> {
                         <div className='home-full-name'>{homeData["name"]}</div>
                         <div className='home-description'>{homeData["description"]}</div>
                         <div className='home-button-row'>
+                            <button onClick={() => window.open("https://www.linkedin.com/in/shenalexw/")}>LinkedIn</button>
                             <button onClick={() => window.open("https://github.com/shenalexw")}>github</button>
-                            <button onClick={() => window.open(resume)}>Resumé</button>
+                            <button onClick={() => window.open("https://drive.google.com/file/d/1krDvLJZWY2w5JQssSARQH457Q4UfFJBN/view?usp=sharing")}>Resumé</button>
                         </div>
                     </div>
                 </div>
