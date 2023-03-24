@@ -1,11 +1,22 @@
 [
     {
+        "title": "Sulvoku",
+        "description": "Front-End application that simulates a sudoku generator/solver utilizing a backtracking algorithem",
+        "image": "https://drive.google.com/uc?export=view&id=1E8g-wncLGUeBBbY3L1SmqsMaIwCFRmmj",
+        "skills": [
+            "TypeScript",
+            "React.js"
+        ],
+        "github": "https://github.com/shenalexw/sulvoku",
+        "demo": "https://shenalexw.github.io/sulvoku/"
+    },
+    {
         "title": "Gains (Capstone Project)",
         "description": "M.E.R.N stack app that allows visitors to create, track, and complete crowd-sourced exercise challenges to receive badges. (Hosted on render.com please give it a few minutes to become active)",
         "image": "https://drive.google.com/uc?export=view&id=1uu2I7C9hap_op0v8UNkzmjVV8TfECmEf",
         "skills": [
             "JavaScript",
-            "React",
+            "React.js",
             "Node.js",
             "Express.js",
             "MongoDB",
@@ -20,7 +31,7 @@
         "image": "https://drive.google.com/uc?export=view&id=1MPoXWZ5L-PjnWBhAMm9du6cyVoqaa5s9",
         "skills": [
             "JavaScript",
-            "React",
+            "React.js",
             "Node.js",
             "Express.js",
             "MongoDB"
