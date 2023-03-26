@@ -22,7 +22,7 @@ button {
   border-style: solid;
   border-color: #CEBDF1;
   color: #CEBDF1;
-  padding: 16px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -56,13 +56,4 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.icons {
-  transition: all .2s ease-in-out;
-}
-
-.icons:hover {
-  cursor: pointer;
-  transform: scale(1.5);
 }

@@ -58,7 +58,7 @@
 .project-bubble-image {
     height: 250px;
     width: 500px;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 .project-bubble-skills {
