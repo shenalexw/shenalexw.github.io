@@ -31,11 +31,14 @@ export default class Home extends Component<Props, State> {
               <button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1hYl_6yNotL1W-4MPfkC7wW7k0r7IOUVY/view?usp=sharing"
+                    "https://drive.google.com/file/d/1c21GfssW-UxWCUgVzXzlVjyGD37__PcE/view?usp=sharing"
                   )
                 }
               >
                 Resumé
+              </button>
+              <button onClick={() => window.open("mailto:shenalexw@gmail.com")}>
+                Contact
               </button>
             </div>
           </div>

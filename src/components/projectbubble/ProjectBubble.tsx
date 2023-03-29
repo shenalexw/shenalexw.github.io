@@ -34,7 +34,7 @@ export default class ProjectBubble extends Component<Props, State> {
           </div>
           <div className="project-bubble-links">
             <button
-            //   className="icons"
+              //   className="icons"
               onClick={() => window.open(this.props.github)}
             >
               <FiGithub />
