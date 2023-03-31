@@ -7,8 +7,8 @@
 
 .work-content {
     padding: 10px;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
 
 .work-tile{
     height: 100%;
-    width: 350px;
+    width: 40vw;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -48,8 +48,16 @@
     font-size: 1.5rem;
 }
 
+.bullets{
+    margin-top: 15px;
+}
+
 @media only screen and (max-width: 768px) {
     .work-row{
         flex-direction: column;
+    }
+
+    .work-tile{
+        width: 80vw;
     }
 }

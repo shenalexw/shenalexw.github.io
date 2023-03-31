@@ -3,21 +3,19 @@
         "logo": "https://drive.google.com/uc?export=view&id=1aeQCe-ul7hXYlpcBK4b4gVMyAUxfMaXR",
         "position": "Software Engineering Intern",
         "bullets": [
-            "Deployed a data visualization feature that helps clients digest employee feedback data using React / Typescript.",
-            "Implemented front-end code to call asynchronous APIs using Axios library to retrieve employee insight objects.",
-            "Constructed logic on client-side using Javascript to process data according to functional design requirements.",
-            "Led weekly coordination syncs with project manager and mentor to review product functionality and design improvements leading to 2-3 new features that were integrated into the final product.",
+            "Deployed a data visualization feature using React/TypeScript that highlighted key insights derived from employee feedback surveys, allowing managers to make data-driven decisions based on specific demographic categories.",
+            "Leveraged Axios library to asynchronously retrieve employee insight objects and implemented client-side data filtering, sorting, and aggregation to meet functional design requirements and optimize front-end performance.",
+            "Facilitated weekly coordination meetings with the project manager and mentor to assess product functionality and suggest design improvements, resulting in the integration of 2-3 new features into the final product.",
             "Maintained an 85% code coverage over unit tests through edge cases and mock data replication using Jest."
-        ]
+          ]
     },
     {
         "logo": "https://drive.google.com/uc?export=view&id=17Jf7lLDvuO81Y2xhPLqBKgvXSYDm0Crj",
         "position": "ABET Web Developer",
         "bullets": [
-            "Refactored 4000+ lines of code to assist faculty members track and assess courses based on survey data resulting in improved code legibility and allowing users to share specific landing pages using PHP / jQuery / MySql.",
+            "Optimized course tracking and assessment web application by refactoring more than 4000 lines of code using PHP, jQuery, and MySQL, resulting in a modular and readable codebase and enabling effortless sharing of landing pages.",
             "Removed security risk by addressing vulnerable APIs with validation of client-inaccessible PHP session variables.",
-            "Enhanced user experience by responding to API calls with HTTP response codes and messages rendered as snackbars.",
-            "Increased user information digestion by creating an exportable bar and pie chart data visual using Chart.js."
-        ]
+            "Enhanced the user experience by implementing HTTP response codes and snackbars for API calls, and creating exportable bar and pie chart data visuals using Chart.js for improved user information digestion."
+          ]
     }
 ]

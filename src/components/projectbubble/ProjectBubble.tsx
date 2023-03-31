@@ -10,16 +10,44 @@ type Props = {
   demo: string | undefined;
 };
 
-type State = {};
+type State = {
+  innerWidth: number;
+};
 
 export default class ProjectBubble extends Component<Props, State> {
-  state = {};
+  constructor(props: Props) {
+    super(props);
+    this.state = {
+      innerWidth: window.innerWidth,
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.handleResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  }
+
+  handleResize = () => {
+    this.setState({
+      innerWidth: window.innerWidth,
+    });
+  };
 
   render() {
     return (
       <div className="projects-bubble">
         <div className="project-bubble-text-half">
           <div className="project-bubble-title">{this.props.title}</div>
+          {this.state.innerWidth < 780 ? (
+            <img
+              alt="project"
+              className="project-image-inside"
+              src={this.props.image}
+            />
+          ) : null}
           <div className="project-bubble-description">
             {this.props.description}
           </div>
@@ -33,18 +61,12 @@ export default class ProjectBubble extends Component<Props, State> {
             })}
           </div>
           <div className="project-bubble-links">
-            <button
-              //   className="icons"
-              onClick={() => window.open(this.props.github)}
-            >
+            <button onClick={() => window.open(this.props.github)}>
               <FiGithub />
             </button>
 
             {this.props.demo && (
-              <button
-                // className="icons"
-                onClick={() => window.open(this.props.demo)}
-              >
+              <button onClick={() => window.open(this.props.demo)}>
                 <FiLink />
               </button>
             )}

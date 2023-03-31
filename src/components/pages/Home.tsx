@@ -37,9 +37,6 @@ export default class Home extends Component<Props, State> {
               >
                 Resumé
               </button>
-              <button onClick={() => window.open("mailto:shenalexw@gmail.com")}>
-                Contact
-              </button>
             </div>
           </div>
         </div>
