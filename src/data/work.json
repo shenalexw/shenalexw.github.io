@@ -1,13 +1,24 @@
-[
+[   
+    {
+        "logo": "https://drive.google.com/uc?export=view&id=1PFXTwdNfx6APc3576zb1ixbkeDNjW_-5",
+        "position": "MTS I, Software (SDET)",
+        "bullets": [
+            "Transform thousands of manual test cases into an automation suite using Python, Pytest, Selenium, and Squish.",
+            "Maintain CI/CD pipelines to ensure nightly execution to proactively identify errors for testers at the start of each day.",
+            "Enhance Pytest report with data visualizations and improved user experience via HTML, CSS, and JavaScript.",
+            "Produce user-friendly documentation to ensure accessibility and comprehension for non-technical team members."
+        ]
+    },
     {
         "logo": "https://drive.google.com/uc?export=view&id=1aeQCe-ul7hXYlpcBK4b4gVMyAUxfMaXR",
         "position": "Software Engineering Intern",
         "bullets": [
             "Deployed a data visualization feature using React/TypeScript that highlighted key insights derived from employee feedback surveys, allowing managers to make data-driven decisions based on specific demographic categories.",
-            "Leveraged Axios library to asynchronously retrieve employee insight objects and implemented client-side data filtering, sorting, and aggregation to meet functional design requirements and optimize front-end performance.",
-            "Facilitated weekly coordination meetings with the project manager and mentor to assess product functionality and suggest design improvements, resulting in the integration of 2-3 new features into the final product.",
-            "Maintained an 85% code coverage over unit tests through edge cases and mock data replication using Jest."
-          ]
+            "Developed dynamically rendering components with real-time fetch queries for up-to-date user interface.",
+            "Translated design mockups into front-end code, consistently meeting design specs with UI/UX collaboration.",
+            "Advocated for and secured the integration of 2-3 new product features through weekly project manager alignment.",
+            "Adhered to company-standard 85% unit test coverage by addressing edge cases and replicating mock data with Jest."
+        ]
     },
     {
         "logo": "https://drive.google.com/uc?export=view&id=17Jf7lLDvuO81Y2xhPLqBKgvXSYDm0Crj",
@@ -16,6 +27,6 @@
             "Optimized course tracking and assessment web application by refactoring more than 4000 lines of code using PHP, jQuery, and MySQL, resulting in a modular and readable codebase and enabling effortless sharing of landing pages.",
             "Removed security risk by addressing vulnerable APIs with validation of client-inaccessible PHP session variables.",
             "Enhanced the user experience by implementing HTTP response codes and snackbars for API calls, and creating exportable bar and pie chart data visuals using Chart.js for improved user information digestion."
-          ]
+        ]
     }
 ]

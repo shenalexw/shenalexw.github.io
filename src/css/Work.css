@@ -24,7 +24,7 @@
 
 .work-tile{
     height: 100%;
-    width: 40vw;
+    width: 30vw;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -36,6 +36,7 @@
     height: 75px;
     width: 200px;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .work-list{
@@ -46,6 +47,7 @@
 
 .work-position{
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .bullets{

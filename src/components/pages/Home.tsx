@@ -31,7 +31,7 @@ export default class Home extends Component<Props, State> {
               <button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1c21GfssW-UxWCUgVzXzlVjyGD37__PcE/view?usp=sharing"
+                    "https://drive.google.com/file/d/1E2L4o63Da-HsT_FJD7UBmW93papr7Hve/view?usp=sharing"
                   )
                 }
               >
