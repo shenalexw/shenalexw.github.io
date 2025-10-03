@@ -33,8 +33,7 @@
 }
 
 .work-image{
-    height: 75px;
-    width: 200px;
+    width: 25vw;
     border-radius: 15px;
     object-fit: cover;
 }
@@ -61,5 +60,9 @@
 
     .work-tile{
         width: 80vw;
+    }
+
+    .work-image{
+        width:60vw;
     }
 }

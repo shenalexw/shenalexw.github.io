@@ -22,7 +22,7 @@ export default class Projects extends Component<Props, State> {
                 key={project.title}
                 title={project.title}
                 description={project.description}
-                image={project.image}
+                image={`/images/${project.image}`}
                 skills={project.skills}
                 github={project.github}
                 demo={project.demo}

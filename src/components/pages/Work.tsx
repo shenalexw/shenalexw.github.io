@@ -21,9 +21,8 @@ export default class Work extends Component<Props, State> {
               {workData.map((work) => (
                 <WorkTile
                   key={work.logo}
-                  logo={work.logo}
+                  logo={`/images/${work.logo}`}
                   position={work.position}
-                  bullets={work.bullets}
                 />
               ))}
             </div>

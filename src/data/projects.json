@@ -2,7 +2,7 @@
     {
         "title": "Sulvoku",
         "description": "Front-End application that simulates a sudoku generator/solver utilizing a backtracking algorithm.",
-        "image": "https://drive.google.com/uc?export=view&id=1E8g-wncLGUeBBbY3L1SmqsMaIwCFRmmj",
+        "image": "sulvoku.png",
         "skills": [
             "TypeScript",
             "React.js"
@@ -13,7 +13,7 @@
     {
         "title": "Gains",
         "description": "M.E.R.N stack app that allows visitors to create, track, and complete crowd-sourced exercise challenges to receive badges. (Hosted on render.com please give it a few minutes to become active)",
-        "image": "https://drive.google.com/uc?export=view&id=1uu2I7C9hap_op0v8UNkzmjVV8TfECmEf",
+        "image": "gains.png",
         "skills": [
             "JavaScript",
             "React.js",
@@ -28,7 +28,7 @@
     {
         "title": "Pass Genny",
         "description": "M.E.R.N stack app that allows users to generate a password and store up to 5 passwords. (Hosted on render.com please give it a few minutes to become active)",
-        "image": "https://drive.google.com/uc?export=view&id=1MPoXWZ5L-PjnWBhAMm9du6cyVoqaa5s9",
+        "image": "pass_genny.png",
         "skills": [
             "JavaScript",
             "React.js",
@@ -42,7 +42,7 @@
     {
         "title": "Peety Coffee Counter",
         "description": "Slack bot that utilizes REST API to track a weekly coffee consumption leaderboard, using user information and slash commands.",
-        "image": "https://drive.google.com/uc?export=view&id=1fjB0If4jGF-vYR1g2UwgwiNrmdjFvfM7",
+        "image": "slackbot.png",
         "skills": [
             "Python",
             "Flask",
@@ -54,7 +54,7 @@
     {
         "title": "Stockify",
         "description": "Email notifier that alerts a user when a product is in stock by web scraping HTML.",
-        "image": "https://drive.google.com/uc?export=view&id=1zD30w_CT4bB016LXuZ-fKzOI3Ptbu3a-",
+        "image": "stockify.png",
         "skills": [
             "Python",
             "beautifulsoup4",
@@ -66,7 +66,7 @@
     {
         "title": "Foogle",
         "description": "Recreation of Google homepage and search results using HTML/CSS.",
-        "image": "https://drive.google.com/uc?export=view&id=1kCQnpcY4uE8c1L9LFdgVF8bxRGAtHsLf",
+        "image": "foogle.png",
         "skills": [
             "HTML",
             "CSS"
@@ -77,7 +77,7 @@
     {
         "title": "Tennis World",
         "description": "My first static website to welcome newcomers to the sport of tennis. (Subscription does not work)",
-        "image": "https://drive.google.com/uc?export=view&id=1Kh8C69J33azmXcebcsErPDjZ2iQH7xqz",
+        "image": "tennis_world.png",
         "skills": [
             "JavaScript",
             "HTML",
@@ -89,7 +89,7 @@
     {
         "title": "Sudoku",
         "description": "Python command-line interface (CLI) program that solves Sudoku puzzles using a backtracking algorithm with recursion as the solver.",
-        "image": "https://drive.google.com/uc?export=view&id=18ULM_kg3mpVJQF4TRz-O3O-qm3tZZ5k2",
+        "image": "sudoku.png",
         "skills": [
             "Python"
         ],
